@@ -8,7 +8,7 @@ A 3D truss stress analysis tool. Returns the stress in each edge of the truss, g
 ## How to run
 Two versions of the program are provided:
 - **TS** is a user-oriented version that opens a command window when executed, asks for the truss file name, prints the stresses in the command window and in a file named *stress.csv*. The user can't choose another output file. The user can also execute a truss file with the TS application.
-- **TSB** is a command line executed version that automatically exits execution when it's done. To run it, open a command window in the directory of the TSB application, and write the command *TSB filename.frm outfilename.csv*, the output file being optional. This version allows user to choose a custom name for the output file.
+- **TSB** is a command line executed version that automatically exits execution when it's done. To run it, open a command window in the directory of the TSB application, and write the command *TSB filename.trs outfilename.csv*, the output file being optional. This version allows user to choose a custom name for the output file.
 
 
 ## Truss definition file
