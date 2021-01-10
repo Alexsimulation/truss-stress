@@ -2,8 +2,7 @@
 
 
 ## What it is
-A 3D truss stress analysis tool. Returns the stress in each edge of the truss, given geometry and loads. 
-
+A 3D truss stress analysis tool. Returns the stress in each edge of the truss, given geometry and loads. It generates the system's stiffness matrix K, solves the linear system K u = f (where f are the forces on each vertex and u the vertex displacements), computes the elongation of each edges and finally uses the Young's modulus of the material to convert elongations to stresses.
 
 ## How to run
 Two versions of the program are provided:
